@@ -13,11 +13,12 @@
 (function(){
 
 "use strict";
-angular.module(_SERVICES_)
-.service("angular-chrome-app-tcp-client",
+angular.module("angular-chrome-app-tcp-client")
+.service("httpServerService",
 ["$log",
 function($log)
 {
+
   // pasted in from sha1.js
   // https://github.com/GoogleChrome/chrome-app-samples/blob/master/samples/websocket-server/sha1.js
   // TODO: consider making sha1 a separate module/service
