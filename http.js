@@ -13,7 +13,7 @@
 (function(){
 
 "use strict";
-angular.module(_SERVICES_)
+angular.module("angular-chrome-app-tcp-client")
 .service("httpServerService", function()
 {
 
