@@ -1,0 +1,22 @@
+{
+  "name": "angular-chrome-app-websocket-server",
+  "version": "0.0.1",
+  "homepage": "https://github.com/PortChaw/angular-chrome-app-websocket-server",
+  "authors": [
+    "chirgwin <geoff@portchaw.com>"
+  ],
+  "description": "AngularJS service wrapper for Chrome App websocket server: https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/websocket-server",
+  "keywords": [
+    "angular",
+    "chrome",
+    "websockets"
+  ],
+  "license": "Apache 2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
