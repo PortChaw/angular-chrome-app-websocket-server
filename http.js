@@ -13,13 +13,15 @@
 (function(){
 
 "use strict";
-angular.module("angular-chrome-app-tcp-client")
-.service("httpServerService", function()
+angular.module(_SERVICES_)
+.service("angular-chrome-app-tcp-client",
+["$log",
+function($log)
 {
-
   // pasted in from sha1.js
   // https://github.com/GoogleChrome/chrome-app-samples/blob/master/samples/websocket-server/sha1.js
   // TODO: consider making sha1 a separate module/service
+  // TODO: use $log service for logging
 
   // Licensed under the Apache License, Version 2.0 (the "License");
   // you may not use this file except in compliance with the License.
@@ -1067,5 +1069,6 @@ angular.module("angular-chrome-app-tcp-client")
     }
   };
   */
-});
+}
+]);
 })();
