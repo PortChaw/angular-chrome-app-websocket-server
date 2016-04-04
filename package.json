@@ -1,0 +1,24 @@
+{
+  "name": "angular-chrome-app-websocket-server",
+  "version": "0.0.1",
+  "description": "AngularJS service wrapper for Chrome App websocket server: https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/websocket-server",
+  "main": "http.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PortChaw/angular-chrome-app-websocket-server.git"
+  },
+  "keywords": [
+    "angular",
+    "chrome",
+    "websockets"
+  ],
+  "author": "chirgwin <geoff@portchaw.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/PortChaw/angular-chrome-app-websocket-server/issues"
+  },
+  "homepage": "https://github.com/PortChaw/angular-chrome-app-websocket-server#readme"
+}
